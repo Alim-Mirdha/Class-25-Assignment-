@@ -1,0 +1,273 @@
+/* ===================================
+       DEFAULT CSS start HERE 
+====================================== */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Spartan, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+form:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+
+
+/* ===================================
+       DEFAULT CSS END HERE 
+====================================== */
+/* ===================================
+       PRISING TABEL START HERE
+====================================== */
+.prising-tabel{
+    background-color: #F6F9FC;
+}
+.prisign-header {
+    width: 408px;
+    margin: auto;
+}
+.main-con h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3763EB;
+}
+.main-con h3 {
+    font-weight: 600;
+    font-size: 30.5px;
+    margin: 12px 0 30px;
+    position: relative;
+}
+.main-con h3::after {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 45%;
+    width: 11%;
+    height: 2px;
+    background-color: #3763EB;
+    display: block;
+    text-align: center;
+}
+.main-con p {
+    color: #8F8E8F;
+    font-size: 16px;
+}
+.prisign {
+    margin: 48px 0 29.5px;
+}
+
+.card-prising .card {
+    padding: 28px 0;
+    transition: .5s;
+}
+.card-prising .card:hover{
+    background: #0D6EFD;
+    
+}
+.card-prising .card:hover h1{
+    color: #fff;
+}
+.card-prising .card:hover h5{
+    color: #fff;
+}
+.card-prising .card:hover ul li{
+    color: #fff;
+}
+.card-prising .card:hover a.main-btn{
+    color: #3763EB;
+    background: #fff;
+}
+
+.card-prising h1 {
+    color: #212529;
+    font-weight: 500;
+    margin: 26px 0 94px;
+    font-size: 42.5px;
+    position: relative;
+    transition: 1s;
+}
+.card-prising h1::after {
+    content: "";
+    position: absolute;
+    bottom: -65px;
+    left: 22%;
+    width: 56%;
+    height: 1px;
+    background-color: #ddd;
+    display: block;
+}
+.card-prising h5{
+    color: #21252A;
+    font-weight: 500;
+    transition: 1s;
+}
+.card-prising ul li {
+    color: #848684;
+    margin-bottom: 15px;
+    font-size: 16.7px;
+    transition: .5s;
+}
+
+
+
+
+.main-btn{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 9px 22px;
+    background: #0D6EFD;
+    border-radius: 20px;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    z-index: 1;
+}
+
+a.main-btn:hover{
+    color: #fff !important;
+   
+}
+
+.main-btn::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background-color: #0D6EFD;
+    border-radius: 20px;
+    z-index: -1;
+    transition: .5s;
+    
+}
+.main-btn:hover::after{
+    width: 100%;
+}
+/* ===================================
+      PRISING TABEL END HERE
+====================================== */
+/* ===================================
+      ABOUT AREA START HERE
+====================================== */
+.about {
+    background: linear-gradient( rgba(13, 109, 253, 0.582), rgba(13, 109, 253, 0.582)), url(./img/free-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 130px 0 87px;
+}
+.about-con{
+    width: 440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.about-con h6 {
+    font-weight: 500;
+    color: #fff;
+}
+.about-con p {
+    color: #fff;
+    margin: 18px 0 44px;
+}
+.bt-button {
+    background: #fff;
+    color: #1371FD;
+    padding: 12px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.about-con h3::after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 45%;
+    width: 11%;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.bt-button::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0D6EFD;
+    z-index: -1;
+    transition: .5s;
+}
+.bt-button:hover{
+    color: #fff;
+}
+.bt-button:hover::after{
+    width: 100%;
+}
+/* ===================================
+       ABOUT AREA END HERE
+====================================== */
+.log-in {
+    padding: 80px 0px 46px;
+}
+.log-in-con {
+    background: #3763EB;
+    padding: 42px 42px 50px 42px;
+    color: #fff;
+}
+.log-in-con h2 {
+    font-size: 28px;
+}
+.log-in-con p {
+    width: 55%;
+    font-size: 17px;
+    margin: 15px 0 27px;
+}
+.log-in-con input {
+    border-radius: 20px;
+}
+.button1 {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sub .card {
+    padding: 6px 73px 13px 25px;
+}
+.sub h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.button {
+    color: #fff;
+    background: #0D6EFD;
+    padding: 5.5px 12px;
+    border-radius: 20px;
+    margin-top: 97px;
+    display: inline-block;
+}
+.button:hover{
+    color: #fff;
+}
